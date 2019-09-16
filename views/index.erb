@@ -5,9 +5,12 @@
   </head>
   <body>
   <form>
-  <input type='text' name='to_cipher'>
-  <input type='number' name='shift'>
+  Text to cipher <br>
+  <input type='text' name='to_cipher'><br>
+  Shift amount<br>
+  <input type='number' name='shift'><br>
   <input type='submit' value='Cipher!'>
   </form>
+  <p><%= @ciphered %></p>
   </body>
 </html>
